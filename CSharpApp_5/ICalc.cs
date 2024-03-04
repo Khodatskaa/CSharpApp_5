@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace CSharpApp_5
+{
+    public interface ICalc
+    {
+        int Less(int valueToCompare);
+        int Greater(int valueToCompare);
+    }
+}
